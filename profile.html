@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>โปรไฟล์</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Prompt', sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .card {
+      position: relative;
+      width: 320px;
+      height: 570px;
+      border-radius: 30px;
+      overflow: hidden;
+      background-image: url('https://lh5.googleusercontent.com/d/13TJew5J1P8yTjlQP4UBnFJpIrvqLfikR');
+      background-size: cover;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    }
+
+    .avatar {
+      position: absolute;
+      top: 40px;
+      left: 70px;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 4px solid #000;
+      background-image: url('https://lh5.googleusercontent.com/d/1REUkwHHPfYECVEXhAfuEztZ5qxIvVD46');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .name-box {
+      position: absolute;
+      top: 250px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      color: #000;
+    }
+
+    .name-box h2 {
+      font-size: 24px;
+    }
+
+    .name-box p {
+      font-size: 18px;
+      margin-top: 4px;
+    }
+
+    .button-box {
+      position: absolute;
+      top: 420px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+    }
+
+    .button-box a {
+      text-decoration: none;
+      background-color: #06c755;
+      color: #fff;
+      padding: 12px 32px;
+      border-radius: 24px;
+      font-weight: bold;
+      transition: 0.3s ease;
+    }
+
+    .button-box a:hover {
+      background-color: #059845;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar"></div>
+    <div class="name-box">
+      <h2>Profile</h2>
+      <p>สมชาย ใจดี</p>
+      <p>คลิกเพื่อดูข้อมูล</p>
+    </div>
+    <div class="button-box">
+      <a href="http://linecorp.com/" target="_blank">คลิก</a>
+    </div>
+  </div>
+</body>
+</html>
